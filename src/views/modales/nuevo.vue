@@ -4,7 +4,7 @@
       v-model="dialog"
       transition="dialog-top-transition"
       persistent
-      style="width: 50%"
+      style="width: 70%"
       class=""
     >
       <v-card class="modal">
@@ -76,6 +76,19 @@ export default {
     return {
       dialog: false,
       snackbar: false,
+
+      valid: false,
+      firstname: "",
+      lastname: "",
+      nameRules: [
+        (v) => !!v || "El nombre es requerido",
+        (v) => v.length <= 10 || "El nombre debe tener menos de 10 caracteres",
+      ],
+      email: "",
+      emailRules: [
+        (v) => !!v || "El e-mail es requerido",
+        (v) => /.+@.+/.test(v) || "El e-mail debe ser válido",
+      ],
     };
   },
 
