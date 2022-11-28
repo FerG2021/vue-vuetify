@@ -14,8 +14,10 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@mdi/font": "^7.0.96",
     "vue": "^3.2.41",
     "vue-icon-packs": "^1.1.3",
+    "vue-material-design-icons": "^5.1.2",
     "vuetify": "^3.0.1",
     "vuex": "^4.0.2"
   },

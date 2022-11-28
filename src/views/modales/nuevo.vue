@@ -11,6 +11,7 @@
         <v-card-title>
           <span class="titulo">Nuevo usuario</span>
         </v-card-title>
+        <menu-icon class="icon-2x" />
 
         <v-form v-model="valid">
           <v-container>
@@ -99,13 +100,19 @@ export default {
   color: #fff;
 }
 
-.fa-solid {
-  font-size: 20px !important;
-  color: #fff !important;
-  background-color: #fff !important;
-}
-
 .item-form {
   background-color: #fff;
+}
+
+/* .material-design-icon.icon-2x {
+  height: 3em;
+  width: 3em;
+} */
+
+.material-design-icon.icon-2x > .material-design-icon__svg {
+  height: 3em;
+  width: 3em;
+  margin: 0px;
+  color: red;
 }
 </style>

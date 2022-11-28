@@ -8,6 +8,7 @@
   </div>
 
   <div style="margin-top: 20px">
+    <v-icon icon="mdi-vuetify"></v-icon>
     <v-table theme="dark">
       <thead>
         <tr>

@@ -9,11 +9,12 @@ import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 
 // Import
-import { ArrowRight } from "vue-icon-packs/oc";
+
+import MenuIcon from "vue-material-design-icons/Menu.vue";
 
 const vuetify = createVuetify({
   components,
   directives,
 });
 
-createApp(App).use(vuetify).component("ArrowRight", ArrowRight).mount("#app");
+createApp(App).use(vuetify).component("menu-icon", MenuIcon).mount("#app");
