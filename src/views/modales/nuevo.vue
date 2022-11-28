@@ -12,6 +12,7 @@
           <span class="titulo">Nuevo usuario</span>
         </v-card-title>
         <menu-icon class="icon-2x" />
+        <menu-icon :size="30" fillColor="#fff" />
 
         <v-form v-model="valid">
           <v-container>
